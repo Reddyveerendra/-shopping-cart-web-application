@@ -1,1 +1,1 @@
-# -shopping-cart-web-application
+# shopping-cart-web-application
