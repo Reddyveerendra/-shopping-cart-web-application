@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+.nav {
+  display: flex;
+  padding: 3%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  font-size: larger;
+  justify-content: space-between;
+  background-color: #111827;
+  color: aliceblue;
+}
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 50vh;
+}
+ul {
+  list-style: none;
+}
+.cart {
+  background-image: url(./Image/shopping-cart.png);
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position-x: center;
+  color: #000000;
+  font-size: 400;
+  text-align: center;
+  padding-bottom: 15%;
+  padding-top: 5%;
+}
+.cart a {
+  color: #000000;
+}
+a:hover {
+  color: #bef264;
+}
+li:hover {
+  color: #bef264;
+}
+.cart a:hover {
+  color: red;
+}
+.logo:hover {
+  color: #bef264;
+}
+.logo {
+  padding: 2%;
+}
+.home {
+  height: 84vh;
+  backdrop-filter: blur;
+  background-image: url();
+  padding: 20%;
+  padding-top: 5%;
+  background-image: url(./Image/home_background.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home img {
+  height: 100px;
+}

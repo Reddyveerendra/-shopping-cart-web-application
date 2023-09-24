@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.card {
+  height: 270px;
+  width: 200px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  padding: 2%;
+  border-radius: 9px;
+  color: black;
+}
+.card img {
+  width: 120px;
+  height: 140px;
+}
+.card:hover {
+  color: rgb(0, 153, 255);
+  height: 300px;
+  width: 215px;
+  transition-duration: 400ms;
+}
+.card img:hover {
+  color: rgb(0, 153, 255);
+  height: 160px;
+  width: 135px;
+  transition-duration: 400ms;
+  padding: 0%;
+}
+.shop {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 3%;
+  height: 1000px;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.item {
+  display: flex;
+  padding: 10%;
+  gap: 100px;
+  text-align: left;
+}
+.item button {
+  background-color: hsl(51, 100%, 50%);
+  height: 50px;
+  width: 200px;
+  border: 2px;
+  border-radius: 9px;
+}
+.item button:hover {
+  background-color: rgb(0, 179, 255);
+  transition-duration: 600ms;
+}
+.cartCollection {
+  padding: 2%;
+}
+.cartItem {
+  display: flex;
+  margin: 3%;
+}
+.cartItem img {
+  width: 220px;
+  height: 280px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 9px;
+  color: black;
+}
+.cartRight {
+  padding: 3%;
+  justify-content: center;
+}
+.value {
+  display: flex;
+  gap: 20px;
+  margin: 0%;
+  justify-content: center;
+}
+.value button {
+  height: min-content;
+}
+.value h3 {
+  margin: 0%;
+}
+.add:hover {
+  background-color: rgb(64, 200, 64);
+}
+.sub:hover {
+  background-color: red;
+}
+.checkout {
+  background-color: hsl(51, 100%, 50%);
+  padding: 3%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border-radius: 8px;
+  border: 1px;
+}
+.checkout:hover {
+  background-color: green;
+}
+hr {
+  height: auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
